@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'RobotoMono';
+    src: url(RobotoMono-VariableFont_wght.ttf);
+}
+
+:root {
+    --cor-primaria: #EEF5FF;
+    --cor-secundaria: #0A3871;
+    --cor-terciaria: #ffffff;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+    margin: 1.5% 1.5% 1.5% 4%;
+    font-family: 'RobotoMono', sans-serif;
+    background-color: var(--cor-primaria);
+    
+}
+
+header{
+    padding-bottom: 2%;
+}
+.logo_alura{
+    width: 5%;
+}
+
+.decodificador{
+    width: auto;
+    height: auto;
+    display: flex;
+    gap: 8%;
+}
+
+.inserir_texto, .texto_criptografado{
+   resize: none;
+   background-color: var(--cor-primaria);
+   margin-bottom: 3%;
+   font-size: 1.5em;
+   border: solid 1px var(--cor-secundaria);
+   color: var(--cor-secundaria);
+   padding: 2%;
+}
+
+button{
+    padding: 2%;
+    border-radius: 5%;
+    border: solid 0.5px var(--cor-secundaria);
+    font-size: 1.5em;
+    color: var(--cor-secundaria);
+    background-color: var(--cor-terciaria);
+
+}
+
+.alerta_minusculas_acento{
+    padding-top: 2%;
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    color: var(--cor-secundaria);
+
+}
+
+.alerta_minusculas_acento img{
+    width: 2.3%;
+    padding-right: 1%;
+
+}

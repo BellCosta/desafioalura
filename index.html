@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<header>
+    <img class="logo_alura" src="assets/alura_icon.png" alt="Logo da Alura">
+</header>
+<body>
+    <section class="decodificador">
+        <div>
+            <textarea class="inserir_texto" placeholder="Digite seu texto." rows="35" cols="70"></textarea>
+            <div>
+                <button class="botao_criptografar" onclick="btnEncriptar()">Criptografar</button>
+                <button class="botao_descriptografar" onclick="btnDesencriptar()">Descriptografar</button>
+            </div>
+        </div>
+        <div class="texto_criptografado_div">
+            <textarea class="texto_criptografado" rows="35" cols="70"></textarea>
+            <div>
+                <button class="botao_copiar" onclick="btnCopiarTexto()">Copiar</button>
+            </div>
+        </div>
+       
+    </section>
+    <div class="alerta_minusculas_acento">
+        <img class="simbolo_exclamacao" src="assets/simbolo_exclamacao.png" alt="Simbolo de atenção">
+        <p>Apenas letras minúsculas e sem acento.</p>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
